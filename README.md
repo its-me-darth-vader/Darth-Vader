@@ -1,4 +1,6 @@
 # Darth-Vader
 portfolio
 
-Have recently started getting into social Media ... mostly the purple one with the camera icon 
+Have recently started getting into social Media ... 
+Shit!!!
+Should have not exposed these information, lets override it ...
