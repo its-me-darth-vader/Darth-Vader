@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lord Vader | Portfolio</title>
+    <meta name="description" content="Portfolio of Darth Vader, Commander of the Imperial Fleet and Sith Lord.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas id="starfield"></canvas>
+    
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="container">
+        <div class="logo galactic-font">Empire</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Power</a></li>
+            <li><a href="#projects">Campaigns</a></li>
+            <li><a href="#contact">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero container">
+            <h1 class="glow-text">Darth Vader</h1>
+            <p>Supreme Commander of the Imperial Fleet</p>
+            <div class="scroll-down">Scroll to explore the Force</div>
+        </section>
+
+        <section id="about" class="container reveal">
+            <h2 class="glow-text">The Chosen One</h2>
+            <div class="glass-card">
+                <p>Formerly Anakin Skywalker, I have embraced the true power of the Dark Side. As the right hand of Emperor Palpatine, I maintain order throughout the galaxy. My methods are efficient, my resolve is absolute, and my presence is... commandingly felt.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="container reveal">
+            <h2 class="glow-text">Force Power</h2>
+            <div class="skills-grid">
+                <div class="glass-card">
+                    <h3>Combat Mastery</h3>
+                    <p>Unmatched lightsaber proficiency. Form V specialist.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>The Force</h3>
+                    <p>Telekinesis, Force Choke, and Precognition.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Strategic Command</h3>
+                    <p>Leadership of the 501st Legion and the Imperial Navy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container reveal">
+            <h2 class="glow-text">Galactic Campaigns</h2>
+            <div class="projects-container">
+                <div class="glass-card project-item">
+                    <h3>Death Star Project</h3>
+                    <p>Oversaw the construction and security of the ultimate weapon. (Version 1.0 & 2.0)</p>
+                </div>
+                <div class="glass-card project-item">
+                    <h3>Operation: Knightfall</h3>
+                    <p>A precision cleanup of the Jedi Temple. Highly successful.</p>
+                </div>
+                <div class="glass-card project-item">
+                    <h3>Hoth Offensive</h3>
+                    <p>Strategic dismantling of Rebel bases on the ice planet Hoth.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container reveal">
+            <h2 class="glow-text">Communicate</h2>
+            <div class="glass-card">
+                <p>Do not fail me. Contact via Imperial Holoprojector or submit your allegiance below.</p>
+                <form id="vader-contact">
+                    <input type="text" placeholder="Name / Designation" required>
+                    <input type="email" placeholder="Holonet Address" required>
+                    <textarea placeholder="Your message to the Empire"></textarea>
+                    <button type="submit" class="galactic-font">Submit Allegiance</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 Galactic Empire. All rights reserved. Rebels will be prosecuted.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
